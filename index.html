@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Woofpack K9 Rescue</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel=""script" href="scripts.js" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="navbar">
+    <h1 class="logo">The Woofpack K9 Rescue</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#our-work">Our Work</a></li>
+        <li><a href="#get-involved">Get Involved</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="about">
+      <div class="hero-content">
+        <h2>Every Dog Deserves a Second Chance</h2>
+        <p>
+          At The Woofpack K9 Rescue, we’re more than just a charity—we’re a movement for pups who deserve love,
+          care, and a forever home. Our mission is to rescue neglected dogs, rehabilitate them, and connect
+          them with the families who will give them a happy life.
+        </p>
+        <a href="#get-involved" class="btn">Support Our Mission</a>
+      </div>
+    </section>
+
+    <!-- ===== Our Work Section ===== -->
+    <section class="content-section" id="our-work">
+      <div class="container">
+        <h2>What We Do</h2>
+        <p>
+          We rescue dogs from unsafe environments and provide medical care, behavioral support, and a safe
+          place to heal. Once they’re ready, we match them with loving families who understand the joy and
+          responsibility of adoption.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Get Involved Section ===== -->
+    <section class="content-section" id="get-involved">
+      <div class="container">
+        <h2>Get Involved</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Adopt</h3>
+            <p>Give a dog a forever home and change both your lives.</p>
+          </article>
+
+          <article class="card">
+            <h3>Foster</h3>
+            <p>Provide temporary care and help a dog transition into a new life.</p>
+          </article>
+
+          <article class="card">
+            <h3>Donate</h3>
+            <p>Your support funds food, vet care, transport, and rehabilitation.</p>
+          </article>
+        </div>
+
+        <a href="#contact" class="btn">Ask About Adopting or Fostering</a>
+      </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="content-section" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions about adopting, fostering, volunteering, or donating? We’d love to hear from you.</p>
+        <p><strong>Email:</strong> <a href="mailto:info@thewoofpackk9rescue.org">info@woofpackk9rescue.org</a></p>
+        <p><strong>Location:</strong> Brisbane, QLD, Australia</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="#about">About</a> |
+        <a href="#our-work">Our Work</a> |
+        <a href="#get-involved">Get Involved</a> |
+        <a href="#contact">Contact</a>
+      </div>
+      <p>&copy; <span id="year"></span>The Woofpack K9 Rescue. All rights reserved.</p>
+      <p>Powered by Mirenzo Media.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Update year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
